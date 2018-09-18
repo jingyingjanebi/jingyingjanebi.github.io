@@ -2,21 +2,30 @@
 <html>
 <head>
   <meta charset = "utf-8">
-	<meta content = "IE=edge" http-equiv = "Jane-Compatible">
-	<meta content = "width=840, initial-scale=1.0" name = "viewport">
-	<meta content = "Jingying Jane Bi" name = "author">
-	<meta content = "Homepage" name = "description">
-	<title>Jingying Jane Bi</title>
-	<!-- Bootstrap core CSS -->
-	<!-- This bootstrap.min.css provides the major style of the webpage -->
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Bootstrap theme -->
-	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-	<!-- Bootstrap icon -->
-	<link href="bootstrap/css/bootstrap.icon-large.min.css" rel="stylesheet">
-	<!-- Custom styles for this template -->
-	<!-- This theme.css provides frames of different displays in the webpage -->
-	<link href="General/theme.css" rel="stylesheet">
+  <meta content = "IE=edge" http-equiv = "Jane-Compatible">
+  <meta content = "width=840, initial-scale=1.0" name = "viewport">
+  <meta content = "Jingying Jane Bi" name = "author">
+  <meta content = "Homepage" name = "description">
+  <title>Jingying Jane Bi</title>
+  <!-- Bootstrap core CSS -->
+  <!-- This bootstrap.min.css provides the major style of the webpage -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Bootstrap icon -->
+  <link href="bootstrap/css/bootstrap.icon-large.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <!-- This theme.css provides frames of different displays in the webpage -->
+  <link href="General/theme.css" rel="stylesheet">
+	
+  <script type="text/javascript" src="crawler.js">
+
+/* Text and/or Image Crawler Script v1.53 (c)2009-2011 John Davenport Scheuer
+   as first seen in http://www.dynamicdrive.com/forums/
+   username: jscheuer1 - This Notice Must Remain for Legal Use
+*/
+
+  </script>
 </head>
   
 <body>
@@ -172,34 +181,50 @@
 	 
 
     <!--=========== Content Section: Events ===========-->
-    img {
-	  width: 100px;
-	  }
-    .marquee {
-	  position: relative;
-	  width: 100%;
-	  height: 100px;
-	  border: 1px solid black;
-	  overflow: hidden;
-	  }
-   .marquee div {
-	  display: block;
-	  position: absolute;
-	  width: 300%;
-	  overflow: hidden;
-	  animation: marquee 20s linear infinite;
-	  }
-   .marquee div:hover {
-	  animation-play-state: paused;
-	  }
-   .marquee span {
-	  float: left;
-	  width: 50%;
-	  }
-   @keyframes marquee {
-	  0% { left: 0; }
-	  100% { left: -100%; }
-	  }	  
+    <script type="text/javascript">
+	    marqueeInit({
+		    uniqueid: 'mycrawler',
+		    style: {
+			    'padding': '5px',
+			    'width': '450px',
+			    'background': 'lightyellow',
+			    'border': '1px solid #CC3300'
+		    },
+		    inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+		    mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+		    moveatleast: 2,
+		    neutral: 150,
+		    persist: true,
+		    savedirection: true
+	    });
+    </script>
+    <div class="marquee" id="mycrawler2">
+	    <img src="https://jingyingjanebi.github.io/Event/Thai_1.jpg" /> 
+	    <img src="https://jingyingjanebi.github.io/Event/Thai_2.jpg" /> 
+	    <img src="https://jingyingjanebi.github.io/Event/Thai_3.jpg" /> 
+	    <img src="https://jingyingjanebi.github.io/Event/Thai_4.jpg" />
+    </div>
+
+    <script type="text/javascript">
+	    marqueeInit({
+		    uniqueid: 'mycrawler2',
+		    style: {
+			    'padding': '2px',
+			    'width': '600px',
+			    'height': '180px'
+		    },
+		    inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+		    mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+		    moveatleast: 2,
+		    neutral: 150,
+		    savedirection: true,
+		    random: true
+	    });
+    </script>	  
+	  
+	  
+	  
+	  
 	  
 	  
     <div class = "content">
