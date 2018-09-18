@@ -173,62 +173,101 @@
 
     <!--=========== Content Section: Events ===========-->
     <div id = "container"> 
-	    <div class = "photobanner-wrap">
-		    <!-- First Row: Wat Sra Si Moom -->
-		    <div class = "photobanner"> 
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/Thai_1.jpg">
-					    <img src="Event/Thai_1.jpg" alt="" height = "200" hspace = "10">
-				    </a> 
-			    </div>
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/Thai_2.jpg">
-					<img src = "Event/Thai_2.jpg" alt = "" height = "200" hspace = "10"> 
-				    </a>
-			    </div>
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/Thai_3.jpg">
-					<img src = "Event/Thai_3.jpg" alt = "" height = "200" hspace = "10"> 
-				    </a> 
-			    </div>
-		    </div>
-		    <!-- Start of Repeat -->
-		    <div class = "small-photo">
-			    <a href = "https://jingyingjanebi.github.io/Event/Thai_1.jpg">
-				    <img src="Event/Thai_1.jpg" alt="" height = "200" hspace = "10">
-			    </a> 
-		    </div>
-		    <!-- Second Row: St. Margret's Secondary School -->
-		    <div class = "photobanner"> 
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/SMSS_1.jpg">
-					    <img src="Event/SMSS_1.jpg" alt="" height = "200" hspace = "10">
-				    </a> 
-			    </div>
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/SMSS_2.jpg">
-					<img src = "Event/SMSS_2.jpg" alt = "" height = "200" hspace = "10"> 
-				    </a>
-			    </div>
-			    <div class = "small-photo">
-				    <a href = "https://jingyingjanebi.github.io/Event/SMSS_3.jpg">
-					<img src = "Event/SMSS_3.jpg" alt = "" height = "200" hspace = "10"> 
-				    </a> 
-			    </div>
-		    </div>
-		    <!-- Start of Repeat -->
-		    <div class = "small-photo">
-			    <a href = "https://jingyingjanebi.github.io/Event/SMSS_1.jpg">
-				    <img src="Event/SMSS_1.jpg" alt="" height = "200" hspace = "10">
-			    </a> 
-		    </div>
-
-
-	    </div>
+	    <header> 
+		    <h5>Wat Sra Si Moom School, Nakhon Pathom, Thailand</h5> 
+	    </header>
     </div>
+    <div class = "photobanner"> 
+	    <img class = "first" src = "Event/Thai_1.jpg" height = "200" hspace = "10" alt = "" />
+	    <img src = "Event/Thai_2.jpg" height = "200" hspace = "10" alt = "" />
+	    <img src = "Event/Thai_3.jpg" height = "200" hspace = "10" alt = "" />
+	    <img src = "Event/Thai_4.jpg" height = "200" hspace = "10" alt = "" />
+	    <img src = "Event/Thai_5.jpg" height = "200" hspace = "10" alt = "" />
+	    <img src = "Event/Thai_6.jpg" height = "200" hspace = "10" alt = "" />												
+    </div>
+    * {margin: 0; padding: 0;}
+    #container {
+	  width: 1000px;
+	  overflow: hidden;
+	  margin: 50px auto;
+	  background: white;
+	  }
+    header{
+	  width: 800px;
+	  margin: 40px auto;
+	  }   
+    header h1 {
+	  text-align: center;
+	  font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+	  }
+    .photobanner {
+	  height: 233px;
+	  width: 3550px;
+	  margin-bottom: 80px;
+	  }
     
-	
-   
+    /*keyframe animations*/
+    .first {
+	  -webkit-animation: bannermove 30s linear infinite;
+	  -moz-animation: bannermove 30s linear infinite;
+	  -ms-animation: bannermove 30s linear infinite;
+	  -o-animation: bannermove 30s linear infinite;
+	  animation: bannermove 30s linear infinite;
+	  }
+    @keyframes "bannermove" {
+	  0% {
+	  margin-left: 0px;
+	  }
+	  100% {
+	  margin-left: -2125px;
+	  }
+	  }
+     @-moz-keyframes bannermove {
+	  0% {
+	  margin-left: 0px;
+	  }
+	  100% {
+	  margin-left: -2125px;
+	  }
+	  }
+    @-webkit-keyframes "bannermove" {
+	  0% {
+	  margin-left: 0px;
+	  }
+	  100% {
+	  margin-left: -2125px;
+	  }
+	  }
+     @-ms-keyframes "bannermove" {
+	  0% {
+	  margin-left: 0px;
+	  }
+	  100% {
+	  margin-left: -2125px;
+	  }
+	  }
+     @-o-keyframes "bannermove" {
+	  0% {
+	  margin-left: 0px;
+	  }
+	  100% {
+	  margin-left: -2125px;
+	  }
+	  }
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
     <div class = "content">
 	    <h5 class = "text-primary" id = "event">Event</h5>
 	    <ul> 
