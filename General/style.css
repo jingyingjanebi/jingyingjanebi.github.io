@@ -5,19 +5,7 @@
  margin: 50px auto;
  background: black;
 }
-/*header*/
-header {
- width: 800px;
- margin: 40px auto;
-}
-header h5 {
- text-align: center;
- font: 100 30px/1.5 Georgia, sans-serif;
-}
-header p {
- font: 100 15px/1.5 Georgia, sans-serif;
- text-align: justify;
-}
+
 /*photobanner*/
 .photobanner {
  height: 233px;
@@ -85,13 +73,6 @@ header p {
 }
 
 
-
-.photobanner {
- height: 233px;
- width: 3550px;
- margin-bottom: 80px;
-}
- 
 .photobanner img {
  -webkit-transition: all 0.5s ease;
  -moz-transition: all 0.5s ease;
