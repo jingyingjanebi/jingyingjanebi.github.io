@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0;}
 #container {
- width: 860px;
+ width: 830px;
  overflow: hidden;
  margin: 5px auto;
  background: white;
@@ -82,11 +82,11 @@
 }
  
 .photobanner img:hover {
- -webkit-transform: scale(2.1);
- -moz-transform: scale(2.1);
- -o-transform: scale(2.1);
- -ms-transform: scale(2.1);
- transform: scale(2.1);
+ -webkit-transform: scale(1.8);
+ -moz-transform: scale(1.5);
+ -o-transform: scale(1.7);
+ -ms-transform: scale(1.6);
+ transform: scale(1.4);
  cursor: pointer;
  
  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
